@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:grovo/component/main_header.dart';
 
 
 class HomeScreen extends StatefulWidget {
@@ -14,7 +15,7 @@ class _HomeScreenState extends State<HomeScreen> {
     return SafeArea(
       child: Column(
       children: [
-
+        MainHeader(),
       ],
     ),
     );
