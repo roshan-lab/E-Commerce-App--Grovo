@@ -43,6 +43,8 @@ dev_dependencies:
   badges: ^2.0.3
   http: ^0.13.5
   shimmer: ^2.0.0
+  cached_network_image: ^3.2.0
+  carousel_slider: ^4.1.1
 
   # The "flutter_lints" package below contains a set of recommended lints to
   # encourage good coding practices. The lint set provided by the package is

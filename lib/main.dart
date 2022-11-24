@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:grovo/route/app_page.dart';
 import 'package:grovo/route/app_route.dart';
+import 'package:grovo/service/remote_service/remote_banner_service.dart';
 import 'package:grovo/theme/app_theme.dart';
 
 void main() {
@@ -21,6 +22,7 @@ class MyApp extends StatelessWidget {
       theme: AppTheme.lightTheme,
       themeMode: ThemeMode.light,
     );
+
   }
 }
 
