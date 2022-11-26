@@ -8,7 +8,7 @@ class CarouselLoading extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Shimmer.fromColors(
-      highlightColor: Colors.green.shade100,
+      highlightColor: Colors.white,
       baseColor: Colors.green.shade400,
       child: Column(
         children: [

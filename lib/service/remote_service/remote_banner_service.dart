@@ -11,7 +11,9 @@ class RemoteBannerService{
    var response=await client.get(
       Uri.parse('$remoteUrl?populate=image'),
     );
-    print(response.statusCode);
+   // print("Status code is :");
+   //  print(response.statusCode);
+   //  print(response.body);
     return response;
   }
   
